@@ -1,0 +1,37 @@
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+.loadpath
+
+# Build directories
+bin/
+target/
+out/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Tool-specific files
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.env
+
+# Dependency files
+lib/
+*.jar
+
+# Maven and Gradle directories
+.gradle/
+build/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
