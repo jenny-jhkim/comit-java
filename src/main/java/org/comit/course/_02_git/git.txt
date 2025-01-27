@@ -49,3 +49,17 @@
         - Provide Git Client with your token instead of your password. 
         
    5. Refresh the page on GitHub to verify the project was uploaded correctly.
+   
+ 3. UPDATE AN EXISTING REPOSITORY ON GITHUB
+
+   1. $ git status
+      - Verify the files to upload to GitHub.
+      
+   2. $ git add .
+      - Telling Git that we are happy with the changes
+      
+   3. $ git commit -m "Add a new variable str5"
+      - Confirm the changes with git
+      
+   4. $ git push
+      - Push the changes to GitHub   
