@@ -2,6 +2,7 @@ package org.comit.practice;
 
 public class Practice01
 {
+	/* Variables Declaration and initialization */
     public static void main( String[] args )
     {
     	//Ex1
