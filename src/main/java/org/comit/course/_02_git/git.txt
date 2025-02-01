@@ -62,4 +62,18 @@
       - Confirm the changes with git
       
    4. $ git push
-      - Push the changes to GitHub   
+      - Push the changes to GitHub
+ 
+  4. GET THE CODE OF AN EXISTING REPOSITORY FROM GITHUB
+
+   1. Navigate to the root folder of your workspace.
+   
+   2. $ git clone https://github.com/bptn-java-developer/comit-05-java.git
+      - Clone the project  
+      
+   3. Import the project to eclipse  
+   
+   $ git pull
+      - to get changes in from the remote repository.
+      - git checkout .
+        - to remove changes
