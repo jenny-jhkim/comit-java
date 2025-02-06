@@ -15,9 +15,10 @@ public class Ex02 {
 		for(int i=0; i<array.length; i++) {
 			sum += array[i];
 		}
-		int average = sum/array.length;
+		double average = (double) sum/array.length;
 		
-		System.out.println("Sum of the array: " + sum);
+		System.out.println("Sum: " + sum + ", length: " + array.length);
+		System.out.println("The avarage of the array elements: " + average);
 
 	}
 
