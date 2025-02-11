@@ -29,7 +29,7 @@ public class Employee {
 	 * 
 	 * Types:
 	 *  1. Default - is created by Java when a class doesn't have any constructor.
-	 *  2. No-Arg - is created by hand and it is like the default constructor.
+	 *  2. No-argument - is created by hand and it is like the default constructor.
 	 *  3. parameterised - is created by hand and has one or more parameters.
 	 */
 	Employee() {
@@ -52,8 +52,6 @@ public class Employee {
 	 * Method - a block of code that runs when it is called
 	 * return_type method_name ( parameters ) { body_of_the_method } 
 	 */	
-
-
 
 	int getId() {
 		return id;
@@ -87,8 +85,18 @@ public class Employee {
 		this.position = position;
 	}
 
+	//Method Declaration: double getBonus(double percentage) 
+	//Method Signature: getBonus(double percentage) 
+	//In Java, if a Method Signature is the same, it is treated as the same method.
+	//
+	//Polymorphism - Method overloading
 	double getBonus(double percentage) {		
 		return (salary * percentage) / 100;		
+	}
+	
+	double getBonus(int percentage1) {	
+		double local = (salary * percentage1) / 100;		
+		return local;
 	}
 	
 	
