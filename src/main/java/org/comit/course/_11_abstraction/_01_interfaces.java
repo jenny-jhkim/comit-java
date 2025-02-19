@@ -1,7 +1,6 @@
 package org.comit.course._11_abstraction;
 
 import java.util.ArrayList;
-import java.util.*;
 
 /*
  * An Interface is a template where we declare abstract methods (a method without a body)

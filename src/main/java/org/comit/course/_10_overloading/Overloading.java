@@ -82,8 +82,10 @@ public class Overloading {
 		MyClass c5 = new MyClass("Hello2", 2);
 		
 		System.out.println(c1.concat("Java Version", 21));
+		System.out.println(c2.concat(10, "Java"));
 		System.out.println(c3.concat("comIT"));
 		System.out.println(c4.concat());
+		System.out.println(c5.concat());
 
 	}
 
