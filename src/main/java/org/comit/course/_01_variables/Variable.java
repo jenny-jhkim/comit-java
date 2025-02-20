@@ -3,14 +3,15 @@ package org.comit.course._01_variables;
 import java.util.Scanner;
 
 public class Variable {
-	static final double PI = 3.14159;
+	public static final double PI = 3.14159;
+	public final int MAX_VALUE = 10;
 	
 	
 	/**
 	 * @param a
 	 * @param b
 	 */
-	void doSomething( int a, int b) {
+	public void doSomething( int a, int b) {
 		System.out.println(a+b);
 	}
 

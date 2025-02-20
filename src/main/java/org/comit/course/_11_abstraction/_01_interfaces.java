@@ -71,12 +71,13 @@ public class _01_interfaces {
 		System.out.println( emp1.calculateBonus(80_000, 0.1) );
 		
 		//Step3 - use the interface as a type to expose only methods declared in the interface
-		// If you create a object using the interface type, it only can access calculatePay() and hiding the rest
+		// If you create a object using the interface type, 
+		//it only can access calculatePay() and hiding the rest
 		Income emp2 = new Employee(); 
 		System.out.println( emp2.calculatePay(80_000, 750));
 
-		ArrayList<String> obj1 = new ArrayList<>();
-		obj1.add("Hello");
+		Iterable<String> obj1 = new ArrayList<>();
+		//obj1.toString();
 		
 	}
 
