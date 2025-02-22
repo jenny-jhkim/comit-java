@@ -1,0 +1,45 @@
+Access modifiers control who has access to :
+	Classes
+	Attributes
+	Methods
+	Constructors
+	
+There are 4 types of access modifiers:
+
+1. private : can be used on 
+			-Attributes
+			-Methods
+			-Constructors
+		- It cannot be used on Classes.
+		  Because if you make your class private then nobody can access it.
+        - It only allows visibility within the class.
+
+2. default : can be used on 
+			-Classes
+			-Attributes
+			-Methods
+			-Constructors
+		-  It is also known as package access modifier
+           Because it only allows visibility within the same package.
+           
+3. protected : can be used on 
+			-Attributes
+			-Methods
+   		- It cannot be used on Classes and Constructors.
+        - Same as default, but the members have visibility from
+          another package through Inheritance.
+ 
+4. public : can be used on
+			-Classes 
+			-Attributes
+			-Methods
+			-Constructors			
+		 - It allows visibility within anywhere the project.
+		 
+Summary
+********
+
+1. private - Offers visibility within the class.
+2. default or package - Offers visibility within the package.
+3. protected - Offers visibility within the package and from other packages through inheritance.
+4. public - Offers visibility within the project.
